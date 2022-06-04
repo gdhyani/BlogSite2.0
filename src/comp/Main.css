@@ -1,0 +1,37 @@
+.heading > img {
+  width: 300px;
+  flex: 1;
+  /* border: 1px solid red; */
+  margin-left: 50px;
+}
+.heading {
+  padding: 20px 60px;
+  background-color: #996ff4;
+  margin: 10px 65px 0px 65px;
+  border-radius: 45px 45px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  flex: 1.9;
+  color: white;
+}
+
+.title > h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+@media screen and (max-width: 480px) {
+  .heading {
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 20px 0px 20px;
+  }
+  .heading > img {
+    width: 250px;
+  }
+  .title > h1 {
+    font-size: 30px;
+  }
+}

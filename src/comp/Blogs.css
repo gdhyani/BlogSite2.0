@@ -1,0 +1,18 @@
+.blog-container{
+    background-color: rgba(128, 128, 128, 0.123);
+    height: 10vh;
+    margin: 0px 65px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    .blog-container{
+        margin:0px 20px;
+    }
+}
