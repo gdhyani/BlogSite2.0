@@ -2,7 +2,7 @@
   width: 300px;
   flex: 1;
   /* border: 1px solid red; */
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .heading {
   padding: 20px 60px;
@@ -26,10 +26,13 @@
   .heading {
     flex-direction: column;
     justify-content: center;
-    margin: 10px 20px 0px 20px;
+    margin: 10px 15px 0px 15px;
+    padding: 40px 20px 20px 20px;
+    border-radius: 15px 15px 0px 0px;
   }
   .heading > img {
-    width: 250px;
+    margin-left: 80px;
+    margin-bottom: 25px;
   }
   .title > h1 {
     font-size: 30px;

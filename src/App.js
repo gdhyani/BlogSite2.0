@@ -5,14 +5,13 @@ import Main from "./comp/Main";
 import Blogs from "./comp/Blogs";
 import Foot from "./comp/Foot";
 
-
 function App() {
   return (
     <div>
       <Nav />
       <Main />
       <Blogs />
-      <Foot/>
+      <Foot />
     </div>
   );
 }

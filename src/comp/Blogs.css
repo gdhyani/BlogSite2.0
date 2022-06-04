@@ -1,18 +1,22 @@
-.blog-container{
-    background-color: rgba(128, 128, 128, 0.123);
-    height: 10vh;
-    margin: 0px 65px;
+.blog-container {
+  background-color: #e6eaf6;
+  min-height: 100vh;
+  margin: 0px 65px;
+  padding: 10px;
 }
 
+.bbox {
+  display: flex;
+  padding: 15px 10px;
+  border-radius: 25px;
 
+}
 
-
-
-
-
-
-@media screen and (max-width:480px) {
-    .blog-container{
-        margin:0px 20px;
-    }
+@media screen and (max-width: 480px) {
+  .blog-container {
+    margin: 0px 15px;
+  }
+  .bbox{
+      padding:20px 10px;
+  }
 }
