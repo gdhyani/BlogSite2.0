@@ -9,6 +9,7 @@ const Foot = () => {
             <h5>This Is</h5>
             <h1>ROCK BOTTOM</h1>
             <h5>There's Nowhere To Go But Up.</h5>
+            <i class="fa-solid fa-cat"></i>
           </div>
           <div className="fbox  col-6 col-md-4 col-lg-3 ">
             <h3>DO STUFF</h3>
