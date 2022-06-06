@@ -1,5 +1,5 @@
 import React from "react";
-import "./Blogs.css";
+import "./BlogsS.css";
 import adog from "../IMG/Adog.png";
 import ant from "../IMG/ant.png";
 import bat from "../IMG/bat.png";

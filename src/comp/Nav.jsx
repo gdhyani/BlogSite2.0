@@ -7,8 +7,8 @@ const Nav = () => {
         <i class="fa-solid fa-kiwi-bird"></i>
       </a>
       <div className="nav-links">
-          <a href="#">Read</a>
-          <a href="#">About</a>
+          <a href="/">Read</a>
+          <a href="/">About</a>
       </div>
     </div>
   );
