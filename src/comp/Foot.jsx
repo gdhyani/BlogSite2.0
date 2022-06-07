@@ -23,7 +23,7 @@ const Foot = () => {
           </div>
           <div className="fbox col-md-4  col-lg-2">
             <h3>CONNECT</h3>
-            <div>
+            <div className="fsocial">
               <a href="/">
                 <i class=" fa fa-solid fa-at"></i>
               </a>

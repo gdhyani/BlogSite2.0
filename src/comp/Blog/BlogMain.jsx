@@ -1,6 +1,6 @@
 import React from "react";
 import bat1 from "../../IMG/bat.png";
-import "./BlogTitle.css";
+import "./BlogMain.css";
 const BlogTitle = ({ col, img, title }) => {
   return (
     <div className="BlogTitleContainer" style={{ backgroundColor: col }}>

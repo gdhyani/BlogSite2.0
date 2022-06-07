@@ -1,0 +1,100 @@
+.blogPSContainer {
+  background-color: #e6eaf6;
+  min-height: 100vh;
+  margin: 0px 50px;
+}
+.scrollTrack {
+  position: sticky;
+  top: 0px;
+  margin: 10px 15px;
+}
+.scol {
+  padding: 40px 10px 0px 10px;
+  /* min-height: 80vh; */
+}
+.scolm {
+  border-radius: 25px;
+  background-color: white;
+  min-height: 100vh;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding: 60px 50px;
+  font-size: 20px;
+  line-height: 28px;
+}
+.sttitle {
+  display: flex;
+  background-color: black;
+  border-radius: 20px 20px 0px 0px;
+  padding: 20px 10px;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.sttitle > button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.stmain {
+  height: 300px;
+  background-color: white;
+  overflow: auto;
+  border-radius: 0px 0px 20px 20px;
+}
+.stmain > ul {
+  padding: 10px;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+.stmain > ul > li {
+  padding: 20px;
+}
+.sttitle > button > i {
+  font-size: 15px;
+  color: white;
+}
+.sttitle > h6 {
+  color: white;
+  margin: 0;
+  width: 100px;
+}
+.ssocial {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.ssocial > a > i {
+  background-color: #24306c;
+  color: white;
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 100px;
+}
+
+@media screen and (max-width: 480px) {
+  .blogPSContainer {
+    margin: 0px 10px;
+  }
+  .sttitle > h6 {
+    width: max-content;
+    margin-right: 20px;
+  }
+  .scrollTrack{
+      position: initial;
+  }
+  .ssocial{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+  }
+  .scolm{
+    border: 0;
+    margin-top: 0px;
+    border-radius: 0%;
+    padding:40px 20px; 
+  }
+
+}

@@ -7,10 +7,11 @@
 .heading {
   padding: 20px 60px;
   background-color: #996ff4;
-  margin: 10px 65px 0px 65px;
+  margin: 10px 50px 0px 50px;
   border-radius: 45px 45px 0px 0px;
   display: flex;
   align-items: center;
+
 }
 
 .title {
@@ -26,7 +27,7 @@
   .heading {
     flex-direction: column;
     justify-content: center;
-    margin: 10px 15px 0px 15px;
+    margin: 10px 10px 0px 10px;
     padding: 40px 20px 20px 20px;
     border-radius: 15px 15px 0px 0px;
   }
@@ -34,7 +35,10 @@
     margin-left: 80px;
     margin-bottom: 25px;
   }
+  .title>h4{
+    font-weight: 300;
+  }
   .title > h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
 }
